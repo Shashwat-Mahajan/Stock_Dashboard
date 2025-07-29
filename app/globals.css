@@ -113,9 +113,16 @@
 }
 
 @layer base {
+
+  html,
+  body {
+    @apply h-screen w-screen overflow-hidden;
+  }
+
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
