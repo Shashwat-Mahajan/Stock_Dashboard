@@ -2,14 +2,14 @@
   "name": "stock_dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Shashwat-Mahajan.github.io/Stock_Dashboard",
+  "homepage": "https://shashwat-mahajan.github.io/Stock_Dashboard",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && npm run export && gh-pages -d out"
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.0",
